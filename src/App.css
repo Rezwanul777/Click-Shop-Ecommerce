@@ -1,0 +1,162 @@
+@import url('https://fonts.googleapis.com/css2?family=League+Spartan:wght@200;300;400;500;600;700&display=swap');
+
+  :root{
+    --primary: #00A97F;
+    --light:rgba(133,198,218,255);
+    --dark:rgba(13,13,10,255);
+    --darker:rgba(234,157,90,255);
+    --lighter:#cbd6cf;
+    --lighter1:#c3dacc86;
+    --lighter2:#e4f0e9da;
+    --darken: #cca27e;
+    --color: orangered;
+    --search: #FF6000;
+    --primary1: #2b3d4c;
+    --primary2: #354d61;
+}
+
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: 'League Spartan', sans-serif;
+}
+
+a {
+  font-weight: 500;
+  text-decoration: none;
+  transition: 0.5s ease;
+}
+a:hover {
+  color: #535bf2;
+}
+p{
+  font-size: 18px;
+  margin: 10px;
+}
+
+h1{
+  font-weight: 600;
+  margin: 10px;
+  font-size: 40px;
+}
+h2{
+  font-weight: 400;
+  font-size: 32px;
+  margin: 10px;
+  color: var(--primary1);
+}
+
+.logo {
+max-width: 100%;
+height: 85px;
+
+}
+
+span{
+  border-radius: 30px;
+}
+
+
+
+
+/* .logo:hover {
+  filter: drop-shadow(0 0 1em #646cffaa);
+} */
+/* .logo.react:hover {
+  filter: drop-shadow(0 0 1em #61dafbaa);
+} */
+
+/* header part css */
+.header-top-stripe a{
+  color: var(--primary1);
+}
+.header-upper{
+  background-color: var(--lighter2);
+}
+
+.nav-links a{
+  text-transform: uppercase;
+  font-size: 16px;
+  
+}
+
+.nav-link-nav a, .social-icons a{
+  color: var(--search);
+}
+
+.active{
+  font-weight: 600;
+  color: var(--primary);
+  text-decoration: underline;
+}
+
+.inactive{
+  font-weight: 400;
+  color: var(--primary1);
+}
+
+/*-------------------------banner part css od home page-------------------------------------*/
+
+        .banner-details{
+          background-image: url('./assets/images/back1.png');
+          background-position: center;
+          background-size: cover;
+          background-repeat: no-repeat;
+          width: 100%;
+          height: 75vh;
+        }
+button{
+  padding: 12px 10px;
+  font-size: 14px;
+  background-color: var(--primary1);  
+  
+  color: wheat;
+}
+.button-link{
+  padding: 12px 10px;
+  font-size: 18px;
+  border-radius: 8px;
+  background-color: var(--primary);
+  border: 1px solid transparent;
+
+  color:wheat ;
+  transition: 0.5s ease;
+
+}
+
+.button-link:hover{
+  background: transparent;
+  color: var(--primary1);
+  border: 1px solid var(--primary);
+}
+
+/* Hero section css */
+.hero-details img{
+  width: 100%;
+  height: 80px;
+}
+
+.hero-details .card{
+  border-radius: 10px;
+}
+
+
+/* 
+footer part css code */
+
+footer{
+  background-color: var(--lighter2);
+}
+
+.pay img{
+  transition: 0.5s ease;
+}
+
+.pay img:hover{
+  transform: translateX(-8px)
+}
+
+.footer-details a{
+  color: var(--primary1);
+}
